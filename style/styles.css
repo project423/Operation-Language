@@ -1,0 +1,200 @@
+/* ****************************************************Element Selectors******************************************************* */
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+/* TITLE SECTION */
+
+#title {
+  background-color: #66bfbf;
+  text-align: left;
+  padding: 2% 10% 12%;
+  position: relative;
+  color: #056674;
+}
+
+#title a:hover {
+  color: #e0ece4;
+}
+
+#title button {
+  border-color: #ff4b5c;
+  background-color: #ff4b5c;
+  color: #f8f9fa;
+}
+#title button:hover {
+  border-color: #ff4b5c;
+  background-color: #db2d3e;
+  color: #f8f9fa;
+}
+#title button:visited {
+  border-color: #ff4b5c;
+  background-color: #db2d3e;
+  color: #f8f9fa;
+}
+
+.logo {
+  color: #ff4b5c;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.nav-link {
+  color: #056674;
+}
+
+.main-title {
+  font-weight: 900;
+  line-height: 1.5;
+  padding-top: 10%;
+  padding-left: 2%;
+  margin-bottom: 5%;
+}
+
+.read {
+  color: #ff4b5c;
+}
+
+.title-image {
+  position: absolute;
+  top: 0%;
+  left: 34%;
+  width: 60%;
+  /* filter: invert(23%) sepia(70%) saturate(2222%) hue-rotate(165deg) brightness(90%) contrast(96%); */
+  filter: invert(63%) sepia(62%) saturate(5723%) hue-rotate(323deg)
+    brightness(96%) contrast(112%);
+}
+
+.title-button {
+  margin-left: 10px;
+}
+
+/* Services */
+
+#services {
+  background-color: #e0ece4;
+  letter-spacing: 4;
+  line-height: 2;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#services .icon {
+  margin-bottom: 4%;
+  color: #056674;
+}
+#services .icon:hover {
+  margin-bottom: 4%;
+  color: #66bfbf;
+}
+
+.services-box {
+  padding: 5%;
+}
+
+.paragraph-container {
+  text-align: left;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #66bfbf;
+  color: #056674;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing */
+#pricing {
+  color: #056674;
+  padding: 100px;
+  text-align: center;
+  background-color: #e0ece4;
+}
+
+#pricing h2 {
+  margin-top: 5%;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.credibility {
+  color: #ff4b5c;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.price-button {
+  border-color: #ff4b5c;
+  color: #ff4b5c;
+}
+
+.price-button:hover {
+  border-color: #ff4b5c;
+  background-color: #ff4b5c;
+  color: #e0ece4;
+}
+
+/* About */
+
+#about {
+  background-color: #66bfbf;
+  padding: 4% 15%;
+  text-align: center;
+  color: #056674;
+}
+
+#about h2 {
+  margin-bottom: 3%;
+}
+#about span {
+  color: #ff4b5c;
+}
+
+#about a{
+    text-decoration: none;
+    color: #ff4b5c;
+}
+
+.about-paragraph {
+  text-align: left;
+  line-height: 1.8;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #e0ece4;
+    padding: 7% 15%;
+    color: #056674;
+    text-align: center;
+    position: relative;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #056674;
+}
+
+#footer .credit-box{
+    text-decoration: none;
+    position: absolute;
+    font-size: 11px;
+    bottom:-4px;
+    right: 29px;
+}
+
