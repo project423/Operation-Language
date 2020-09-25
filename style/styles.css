@@ -22,26 +22,32 @@ body {
   color: #e0ece4;
 }
 
-#title button {
+ #title .title-button {
   border-color: #ff4b5c;
   background-color: #ff4b5c;
   color: #f8f9fa;
-}
-#title button:hover {
+} 
+ #title .title-button:hover {
   border-color: #ff4b5c;
   background-color: #db2d3e;
   color: #f8f9fa;
 }
-#title button:visited {
+#title .title-button:visited {
   border-color: #ff4b5c;
   background-color: #db2d3e;
   color: #f8f9fa;
-}
+} 
 
 .logo {
   color: #ff4b5c;
   letter-spacing: 2px;
-  font-size: 30px;
+  font-size: 150%;
+}
+
+
+
+.title-span{
+    color:#ff4b5c;
 }
 
 .nav-link {
@@ -197,4 +203,29 @@ body {
     bottom:-4px;
     right: 29px;
 }
+
+
+/* **********************************************MEDIA QUERIES****************************************** */
+
+@media(max-width: 1028px){
+
+    #title{
+      text-align: center;
+    }
+    .title-image{
+      position: static;
+      transform: rotate(0);
+    }
+
+    .logo{
+        font-size: 100%;
+    }
+    #footer .credit-box{
+        text-decoration: none;
+        position: absolute;
+        font-size: 8px;
+        bottom:-4px;
+        right: 29px;
+    }
+  }
 
